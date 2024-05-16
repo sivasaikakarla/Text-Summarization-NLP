@@ -1,0 +1,8 @@
+open anaconda poweshell prompt and navigate to project folder
+conda create -n textS python=3.8 -y  (for creating environment)
+conda activate textS
+//we can publish the library in pyPI
+conda env list  (to know the environments list)
+conda create --prefix D:/6thsem/projects/text-summarization-nlp/textS python=3.8
+conda activate D:\6thsem\projects\text-summarization-nlp\textS
+pip install -r requirements.txt
